@@ -1,9 +1,114 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: #d6d6d6;
+  font-family: Apple-Chancery;
+}
+
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: blueviolet;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+button {
+  background-color: gray;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #00000;
+}
+
+button:hover {
+  background-color: lightgray;
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-family: Apple-Chancery;
+  text-align: center;
+}
+
+h2 {
+  color: darkolivegreen;
+  font-family: cambria;
+  text-align: center;
+}
+
+h3 {
+  font-family: Apple-Chancery;
+  text-align: center;
+}
+
+.photographers {
+  text-align: left;
+  column-count: 1;
+  column-gap: 8px;
+  font-size: 18px;
+  font-family: Apple-Chancery;
+  padding: 10px;
+  background-color: silver;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+p {
+  font-family: Georgia;
+  text-align: center;
+  font-size: 16px;
+  margin: 28px;
+}
+
+img {
+
+  border: 2px solid;
+  border-radius: 8px;
+  padding: 5px;
+  width: 250px;
+  height: 300px;
+  margin: auto;
+}
+
+img:hover {
+  box-shadow: 0 0 3px 2px rgba(0, 140, 186, 0.5);
+}
+
+.pics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+div {
+  text-align: center;
+  font-size: 18px;
+  font-family: Apple-Chancery;
+  padding: 10px;
+  background-color: silver;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 footer {
+  font-size: 10px;
   text-align: center;
-  font-size: x-small;
 }
